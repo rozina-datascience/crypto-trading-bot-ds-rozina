@@ -1,0 +1,42 @@
+# 📘 Sentiment-Based Trading Bot Project
+
+# 📊 Web3 Trading Analytics Report
+
+## Project Title: Sentiment-Based Profitability Analysis + Binance Futures Bot
+
+**Goal:**  
+Analyze trader behavior vs. market sentiment (Fear/Greed Index) using real trading logs and build a simulated Binance Futures trading bot.
+
+**Tools Used:**  
+- Python, Pandas, Seaborn, Matplotlib  
+- Binance API (simulated)  
+- Google Colab
+
+**Part 1: Data Analysis**  
+We merged two datasets:
+- Trader transaction history (Binance)
+- Market sentiment index (Fear/Greed classification)
+
+We analyzed if market sentiment affects profit/loss (PnL). We visualized PnL trends using bar plots.
+
+**Part 2: Trading Bot (Simulation)**  
+We built a simplified trading bot in Python (via `python-binance`) that:
+- Places market/limit orders on the testnet
+- Accepts CLI inputs (symbol, side, price, etc.)
+- Simulates logging and outputs for the assignment
+
+**Disclaimer:**  
+This bot uses **sample API keys** and does **not place real trades**. It simulates functionality only for assignment purposes.
+
+
+## Contents
+- Data analysis notebook (`notebook_1.ipynb`)
+- Trading bot simulation (`bot.py`)
+- Final report (`ds_report.pdf`)
+- Sample input CSVs and output chart
+
+## Instructions
+This project analyzes how Fear/Greed sentiment affects trader PnL using two datasets.
+It also simulates a basic Binance Futures trading bot (with sample keys).
+
+**Note:** The bot uses `sample_api_key` and does NOT place real orders. It's for simulation only.

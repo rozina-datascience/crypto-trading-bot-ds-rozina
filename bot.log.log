@@ -1,0 +1,1 @@
+2025-07-11 14:31:09,293 - INFO - Simulated Order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01, 'order_type': 'MARKET', 'price': 'Market Price'}
